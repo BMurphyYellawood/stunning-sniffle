@@ -6,9 +6,10 @@ name: test
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   # Runs every 5 mins
-  push:
+  # push:
   schedule:
     - cron: "* * * * *"
+    
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
